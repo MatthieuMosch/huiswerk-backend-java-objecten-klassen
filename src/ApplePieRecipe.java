@@ -9,10 +9,8 @@ public class ApplePieRecipe {
             new Ingredient("zoetzure appels", 1.5, "kilo"),
             new Ingredient("kristal suiker", 75, "gram"),
             new Ingredient("kaneel", 3, "theelepels"),
-            new Ingredient("paneermeel", 15, "melon")};
-
-    public ApplePieRecipe() {
-    }
+            new Ingredient("paneermeel", 15, "melon")
+    };
 
     public void printRecipe() {
         printIngredients();
@@ -80,5 +78,4 @@ public class ApplePieRecipe {
     private void bakePie() {
         System.out.println("- Zet de taart iets onder het midden van de oven. Bak de taart in 60 minuten op 170 graden Celsius (boven en onderwarmte) gaar en goudbruin.");
     }
-
 }

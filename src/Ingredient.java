@@ -3,10 +3,6 @@ public class Ingredient {
     private double quantity;
     private String unit;
 
-    public Ingredient() {
-        // empty constructor
-    }
-
     public Ingredient(String name, double quantity, String unit) {
         this.name = name;
         this.quantity = quantity;
